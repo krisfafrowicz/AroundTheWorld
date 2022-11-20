@@ -1,0 +1,142 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Herculanum";
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+
+header .places-header{
+    display: flex;
+    box-shadow: 0 8px 10px -4px lightblue;
+    justify-content: space-between;
+    width: 98%;
+    padding: 10px 10px;
+}
+
+header .search-bar{
+    position: absolute;
+    top: 20%;
+    right: 0%;
+    width: 30%;
+}
+
+header .search-bar a{
+    width: 40px;
+    position: absolute;
+    right: 10%;
+    top: 25%;
+    font-size: 20px;
+}
+
+
+
+header .search-bar input{
+    position: relative;
+    width: 90%;
+    padding: 15px 10px;
+    border: 2px solid #198593;
+    border-radius: 12px;
+    background-color: #fff;
+    opacity: 0.4;
+}
+
+.places-wrapper{
+    width: 90%;
+    margin: 200px auto;
+}
+
+.places-wrapper {
+    position: relative;
+
+}
+header{
+    width: 100%;
+    display: block;
+}
+
+
+
+h1{
+    padding: 50px 0px;
+    color: #198593;
+    font-size: 5rem;
+}
+
+
+.like-img{
+    position: absolute;
+    top: 0;
+    right: 170px;
+    padding: 10px;
+    width: 40px;
+    font-size: larger;
+}
+
+
+ .place-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    justify-content: space-around;
+}
+ 
+.place-list .img-items{
+    position: relative;
+}
+    
+    .img-items img{
+        
+        width: 420px;
+    }
+    
+    
+    
+    footer .copyright{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+    
+    footer .privacy {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 40px;
+        gap: 40px;
+    }
+    footer .privacy a {
+        text-decoration: none;
+        color: #198593;
+        font-weight: bolder;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    
+    footer .version{
+        text-align: center;
+        border-top: 1px solid #198593;
+    }
+    
+    footer .version p{
+        padding: 20px 0px;
+    }
+    
+    footer{
+        background-color: #f4f2f2;
+        display: block;
+    }
+    footer .copyright img{
+        width:200px;
+    }
+    
